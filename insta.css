@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram CSS</title>
+    <style>
+        /* Resetting default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header styles */
+        header {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Logo styles */
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 20px 0;
+        }
+
+        /* Post styles */
+        .post {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        /* Post image styles */
+        .post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* Post caption styles */
+        .post .caption {
+            margin-top: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Instagram</div>
+        </header>
+        <main>
+            <div class="post">
+                <img src="https://via.placeholder.com/600x400" alt="Post Image">
+                <div class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla vitae nisi dictum laoreet.</div>
+            </div>
+            <!-- Add more posts here -->
+        </main>
+    </div>
+</body>
+</html>
